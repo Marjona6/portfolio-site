@@ -64,17 +64,13 @@ table {
 /* PAGE DEFAULTS */
 
 body {
-    /*background: blue url("../img/starry.jpg") no-repeat center center fixed;
-    background-size: cover;*/
     background: black;
     color: white;
-    margin-top: 87px;
+    margin-top: 103px;
 }
 
 header {
-    /*background: blue url("../img/starry.jpg") no-repeat center center fixed;*/
-    /*background-size: cover;*/
-    padding: 1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
     border-bottom: 3px solid white;
     font-family: 'Geo', sans-serif;
     position: fixed;
@@ -128,14 +124,24 @@ section li {
 
 a:link {
     color: blue;
+    text-decoration: none;
 }
 
 a:visited {
     color: gray;
+    text-decoration: none;
 }
 
 a:hover {
     color: hotpink;
+    text-decoration: none;
+}
+
+/* HEADER */
+#navbar a {
+    color: white;
+    float: right;
+    padding: 0.5rem 1rem 0 1rem;
 }
 
 /* LANDING PAGE / "HOOK" */
@@ -216,11 +222,19 @@ a:hover {
     padding-bottom: 2rem;
 }
 
+/* SKILLS */
+
+#skills {
+    background: black;
+    color: white;
+    padding-bottom: 2rem;
+}
+
 /* CONTACT */
 
 #contact {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     padding-bottom: 2rem;
 }
 
