@@ -64,17 +64,24 @@ table {
 /* PAGE DEFAULTS */
 
 body {
-    background: blue url("../img/starry.jpg") no-repeat center center fixed;
-    background-size: cover;
+    /*background: blue url("../img/starry.jpg") no-repeat center center fixed;
+    background-size: cover;*/
+    background: black;
     color: white;
+    margin-top: 87px;
 }
 
 header {
     /*background: blue url("../img/starry.jpg") no-repeat center center fixed;*/
     /*background-size: cover;*/
-/*    color: white;
-*/    padding: 2rem;
+    padding: 1rem;
+    border-bottom: 3px solid white;
     font-family: 'Geo', sans-serif;
+    position: fixed;
+    display: block;
+    width: 100%;
+    background: black;
+    top: 0px;
 }
 
 h1 {
@@ -99,9 +106,7 @@ main {
 }
 
 section {
-    background: rgba(128, 0, 128, 0.9);
-    padding: 2rem;
-    margin: 2rem;
+    /*padding: 1rem;*/
     line-height: 120%;
 }
 
@@ -121,42 +126,61 @@ section li {
     padding: 0.25rem 0 0.25rem 0;
 }
 
-/* LANDING PAGE */
-#landing-page {
-
+/* LANDING PAGE / "HOOK" */
+#hook {
+    background: black url('../img/kapadokya2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 500px;
+    color: black;
 }
 
-#hero-blurb {
+#hook-blurb {
+    padding: 3rem;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/* ABOUT */
+
+#about {
+    padding-bottom: 2rem;
+}
+
+#about-blurb {
     display: inline-block;
     vertical-align: center;
 }
 
-#hero-img {
+#avatar-img {
+    padding: 1rem 0 1rem 0;
 }
 
-#hero-img h3 {
-    text-align: center;
+.avatar-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 50%;
+    min-width: 40%;
+    height: auto;
+    border-radius: 9999px;
 }
 
 .responsive-image {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    max-width: 80%;
+    max-width: 100%;
+    min-width: 70%;
     height: auto;
-    border-radius: 9999px;
 }
 
 .landing-block {
     display: inline-block;
-    background: white;
-    color: purple;
     text-align: center;
-    border: 2px solid green;
-}
+/*    border: 2px solid green;
+*/}
 
 .landing-image {
-    border: 1px solid purple;
+    border: 1px solid black;
     display: block;
     width: 25%;
     height: 30px;
@@ -166,11 +190,16 @@ section li {
 
 .landing-blurb {
     display: block;
+    text-align: left;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* PORTFOLIO */
 #portfolio {
-
+    color: black;
+    background: white;
+    padding-bottom: 2rem;
 }
 
 /* FOOTER */
