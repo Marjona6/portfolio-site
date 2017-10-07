@@ -137,6 +137,10 @@ a:hover {
     text-decoration: none;
 }
 
+.section-info {
+    padding-bottom: 1rem;
+}
+
 /* HEADER */
 #navbar a {
     color: white;
@@ -240,9 +244,6 @@ a:hover {
 
 /* FOOTER */
 footer {
-  /*  background: blue url("../img/starry.jpg") no-repeat center center fixed;
-    background-size: cover;
-    color: white;*/
     text-align: center;
     padding: 0.25rem;
     font-family: 'Geo', sans-serif;
