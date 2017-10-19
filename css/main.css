@@ -64,8 +64,8 @@ table {
 /* PAGE DEFAULTS */
 
 body {
-    background: black;
-    color: white;
+    background: #352A3C;
+    color: #8DA3B1;
     margin-top: 59px;
 }
 
@@ -76,7 +76,7 @@ header {
     position: fixed;
     display: block;
     width: 100%;
-    background: black;
+    background: #352A3C;
     top: 0px;
 }
 
@@ -137,7 +137,7 @@ a:visited {
 }
 
 a:hover {
-    color: hotpink;
+    color: #933345;
     text-decoration: none;
 }
 
@@ -147,13 +147,20 @@ a:hover {
 
 /* HEADER */
 #navbar a {
-    color: white;
     float: right;
     padding-left: 1rem;
 }
 
-header a:hover {
-    color: hotpink;
+#navbar a:visited {
+    color: white;
+}
+
+#navbar a:link {
+    color: white;
+}
+
+#navbar a:hover {
+    color: #933345;
     font-size: 125%;
 }
 
@@ -165,10 +172,10 @@ nav {
 
 /* LANDING PAGE / "HOOK" */
 #hook {
-    background: black url('../img/kapadokya2.jpg') no-repeat center center fixed;
+    background: #352A3C url('../img/kapadokya2.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 500px;
-    color: black;
+    color: #352A3C;
 }
 
 #hook-blurb {
@@ -219,7 +226,7 @@ nav {
 */}
 
 .landing-image {
-    border: 1px solid black;
+    border: 1px solid #352A3C;
     display: block;
     width: 25%;
     height: 30px;
@@ -237,15 +244,15 @@ nav {
 /* PORTFOLIO */
 #portfolio {
     background: white;
-    color: black;
+    color: #352A3C;
     padding-bottom: 2rem;
 }
 
 /* SKILLS */
 
 #skills {
-    background: black;
-    color: white;
+    background: #352A3C;
+    color: #8DA3B1;
     padding-bottom: 2rem;
 }
 
@@ -253,7 +260,7 @@ nav {
 
 #contact {
     background: white;
-    color: black;
+    color: #352A3C;
     padding-bottom: 2rem;
 }
 
@@ -281,6 +288,6 @@ footer a:visited {
 }
 
 footer a:hover {
-    color: hotpink;
+    color: #933345;
     font-size: 125%;
 }
