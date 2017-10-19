@@ -66,7 +66,7 @@ table {
 body {
     background: black;
     color: white;
-    margin-top: 103px;
+    margin-top: 59px;
 }
 
 header {
@@ -78,6 +78,10 @@ header {
     width: 100%;
     background: black;
     top: 0px;
+}
+
+header h1 {
+    display: inline-block;
 }
 
 h1 {
@@ -145,7 +149,18 @@ a:hover {
 #navbar a {
     color: white;
     float: right;
-    padding: 0.5rem 1rem 0 1rem;
+    padding-left: 1rem;
+}
+
+header a:hover {
+    color: hotpink;
+    font-size: 125%;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    padding-top: 1rem;
 }
 
 /* LANDING PAGE / "HOOK" */
