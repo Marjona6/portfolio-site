@@ -161,7 +161,7 @@ a:hover {
 
 #navbar a:hover {
     color: #933345;
-    font-size: 125%;
+    text-decoration: underline;
 }
 
 nav {
@@ -289,5 +289,5 @@ footer a:visited {
 
 footer a:hover {
     color: #933345;
-    font-size: 125%;
+    text-decoration: underline;
 }
