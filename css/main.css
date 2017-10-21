@@ -256,6 +256,16 @@ nav {
     padding-bottom: 2rem;
 }
 
+.col-3 ul {
+    color: #933345;
+    font-weight: bold;
+}
+
+.col-3 li {
+    color: #8DA3B1;
+    font-weight: normal;
+}
+
 /* CONTACT */
 
 #contact {
