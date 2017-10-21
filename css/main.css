@@ -176,6 +176,8 @@ nav {
     background-size: cover;
     height: 500px;
     color: #352A3C;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #hook-blurb {
