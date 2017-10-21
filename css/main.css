@@ -176,9 +176,7 @@ nav {
     background-size: cover;
     height: 500px;
     color: #352A3C;
-    background-attachment: fixed !important;
-    background-position: center !important;
-    background-size: cover !important;
+    background-attachment: scroll;
 }
 
 #hook-blurb {
