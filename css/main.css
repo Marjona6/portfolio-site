@@ -106,7 +106,6 @@ main {
 }
 
 section {
-    /*padding: 1rem;*/
     line-height: 120%;
 }
 
@@ -172,7 +171,7 @@ nav {
 
 /* LANDING PAGE / "HOOK" */
 #hook {
-    background: #352A3C url('../img/kapadokya2.jpg') no-repeat center center fixed;
+    background: #352A3C url('../img/kapadokya2small.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 500px;
     color: #352A3C;
