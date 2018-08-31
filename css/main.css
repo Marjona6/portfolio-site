@@ -72,7 +72,8 @@ body {
 header {
     padding: 1rem 1rem 0.5rem 1rem;
     border-bottom: 3px solid white;
-    font-family: 'Geo', sans-serif;
+    /*font-family: 'Geo', sans-serif;*/
+    font-family: 'PT Serif', serif;
     position: fixed;
     display: block;
     width: 100%;
@@ -90,7 +91,8 @@ h1 {
 
 h2 {
     font-size: 165%;
-    font-family: 'Geo', sans-serif;
+    /*font-family: 'Geo', sans-serif;*/
+    font-family: 'PT Serif', serif;
 }
 
 h3 {
@@ -289,7 +291,8 @@ nav {
 footer {
     text-align: center;
     padding: 0.25rem;
-    font-family: 'Geo', sans-serif;
+    /*font-family: 'Geo', sans-serif;*/
+    font-family: 'PT Serif', serif;
 }
 
 footer li {
