@@ -1,21 +1,19 @@
 /* CSS reset */
 
-
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain)
 */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 1em;
-    font: inherit;
-    vertical-align: baseline;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1em;
+  font: inherit;
+  vertical-align: baseline;
 }
-
 
 /* HTML5 display-role reset for older browsers */
 
@@ -30,288 +28,289 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+  content: "";
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
 
 /* PAGE DEFAULTS */
 
 body {
-    background: #352A3C;
-    color: #8DA3B1;
-    margin-top: 59px;
+  background: #352a3c;
+  color: #8da3b1;
+  margin-top: 59px;
 }
 
 header {
-    padding: 1rem 1rem 0.5rem 1rem;
-    border-bottom: 3px solid white;
-    /*font-family: 'Geo', sans-serif;*/
-    font-family: 'PT Serif', serif;
-    position: fixed;
-    display: block;
-    width: 100%;
-    background: #352A3C;
-    top: 0px;
+  padding: 1rem 1rem 0.5rem 1rem;
+  border-bottom: 3px solid white;
+  /*font-family: 'Geo', sans-serif;*/
+  font-family: "PT Serif", serif;
+  position: fixed;
+  display: block;
+  width: 100%;
+  background: #352a3c;
+  top: 0px;
 }
 
 header h1 {
-    display: inline-block;
+  display: inline-block;
 }
 
 h1 {
-    font-size: 200%;
+  font-size: 200%;
 }
 
 h2 {
-    font-size: 165%;
-    /*font-family: 'Geo', sans-serif;*/
-    font-family: 'PT Serif', serif;
+  font-size: 165%;
+  /*font-family: 'Geo', sans-serif;*/
+  font-family: "PT Serif", serif;
 }
 
 h3 {
-    font-size: 125%;
+  font-size: 125%;
 }
 
 ul {
-    list-style: disc inside none;
+  list-style: disc inside none;
 }
 
 main {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 section {
-    line-height: 120%;
+  line-height: 120%;
 }
 
 section h2 {
-    padding: 1rem 0 1rem 0;
+  padding: 1rem 0 1rem 0;
 }
 
 section p {
-    line-height: 120%;
+  line-height: 120%;
 }
 
 section ul {
-    padding: 0.5rem 0 0.25rem 0;
+  padding: 0.5rem 0 0.25rem 0;
 }
 
 section li {
-    padding: 0.25rem 0 0.25rem 0;
+  padding: 0.25rem 0 0.25rem 0;
 }
 
 a:link {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 a:visited {
-    color: gray;
-    text-decoration: none;
+  color: gray;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #933345;
-    text-decoration: none;
+  color: #933345;
+  text-decoration: none;
 }
 
 .section-info {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* HEADER */
 #navbar a {
-    float: right;
-    padding-left: 1rem;
+  float: right;
+  padding-left: 1rem;
 }
 
 #navbar a:visited {
-    color: white;
+  color: white;
 }
 
 #navbar a:link {
-    color: white;
+  color: white;
 }
 
 #navbar a:hover {
-    color: #933345;
-    text-decoration: underline;
+  color: #933345;
+  text-decoration: underline;
 }
 
 nav {
-    display: inline-block;
-    float: right;
-    padding-top: 1rem;
+  display: inline-block;
+  float: right;
+  padding-top: 1rem;
 }
 
 /* LANDING PAGE / "HOOK" */
 #hook {
-    background: #352A3C url('../img/kapadokya2small.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: 500px;
-    color: #352A3C;
-    background-attachment: scroll;
+  background: #352a3c url("../img/kapadokya2small.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  height: 500px;
+  color: #352a3c;
+  background-attachment: scroll;
 }
 
 #hook-blurb {
-    padding: 1rem 3rem 1rem 3rem;
-    line-height: 4rem;
-    font-size: 170%;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  padding: 1rem 3rem 1rem 3rem;
+  line-height: 4rem;
+  font-size: 170%;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 /* ABOUT */
 
 #about {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 #about-blurb {
-    display: inline-block;
-    vertical-align: center;
+  display: inline-block;
+  vertical-align: center;
 }
 
 #avatar-img {
-    padding: 1rem 0 1rem 0;
+  padding: 1rem 0 1rem 0;
 }
 
 .avatar-image {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    max-width: 50%;
-    min-width: 40%;
-    height: auto;
-    border-radius: 9999px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 50%;
+  min-width: 40%;
+  height: auto;
+  border-radius: 9999px;
 }
 
 .responsive-image {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    max-width: 100%;
-    min-width: 70%;
-    height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  min-width: 70%;
+  height: auto;
 }
 
 .landing-block {
-    display: inline-block;
-    text-align: center;
-/*    border: 2px solid green;
-*/}
+  display: inline-block;
+  text-align: center;
+  /*    border: 2px solid green;
+*/
+}
 
 .landing-image {
-    border: 1px solid #352A3C;
-    display: block;
-    width: 25%;
-    height: 30px;
-    margin-left: auto;
-    margin-right: auto;
+  border: 1px solid #352a3c;
+  display: block;
+  width: 25%;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .landing-blurb {
-    display: block;
-    text-align: left;
-    margin-left: 1rem;
-    padding-bottom: 1rem;
+  display: block;
+  text-align: left;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* PORTFOLIO */
 #portfolio {
-    background: white;
-    color: #352A3C;
-    padding-bottom: 2rem;
+  background: white;
+  color: #352a3c;
+  padding-bottom: 2rem;
 }
 
 /* SKILLS */
 
 #skills {
-    background: #352A3C;
-    color: #8DA3B1;
-    padding-bottom: 2rem;
+  background: #352a3c;
+  color: #8da3b1;
+  padding-bottom: 2rem;
 }
 
 .col-3 ul {
-    color: #933345;
-    font-weight: bold;
+  color: #933345;
+  font-weight: bold;
 }
 
 .col-3 li {
-    color: #8DA3B1;
-    font-weight: normal;
+  color: #8da3b1;
+  font-weight: normal;
 }
 
 .skill {
-    color: white;
-    background-color: #933345;
-    border: 2px solid white;
-    border-radius: 30px;
-    text-align: center;
-    margin: 1rem;
-    padding: 0.5rem;
-    width: 75%;
+  color: white;
+  background-color: #933345;
+  border: 2px solid white;
+  border-radius: 30px;
+  text-align: center;
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 75%;
 }
 
 /* CONTACT */
 
 #contact {
-    background: white;
-    color: #352A3C;
-    padding-bottom: 2rem;
+  background: white;
+  color: #352a3c;
+  padding-bottom: 2rem;
 }
 
 /* FOOTER */
 footer {
-    text-align: center;
-    padding: 0.25rem;
-    /*font-family: 'Geo', sans-serif;*/
-    font-family: 'PT Serif', serif;
+  text-align: center;
+  padding: 0.25rem;
+  /*font-family: 'Geo', sans-serif;*/
+  font-family: "PT Serif", serif;
 }
 
 footer li {
-    display: inline;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+  display: inline;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 footer a:link {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 footer a:visited {
-    color: white;
+  color: white;
 }
 
 footer a:hover {
-    color: #933345;
-    text-decoration: underline;
+  color: #933345;
+  text-decoration: underline;
 }
